@@ -3,7 +3,7 @@
 ![rescaler-thumb](https://github.com/user-attachments/assets/d209c097-3a25-46f9-9ec5-113c912ba773)
 
 **Author:** The French Monkey (TFMSTYLE)  
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 
 ---
 
@@ -99,3 +99,21 @@ Automatically updates the **target assignment** based on selection events.
 - Works on all object types that provide valid bounding box data (Meshes, Curves, Texts, etc.).  
 - Fully undoable — every operation integrates into Blender’s Undo stack.  
 - Automatically updates when objects are added or removed.
+
+---
+
+## Install
+
+Needs Blender 4.2 or later. Get the zip from [tfmstyle.com](https://tfmstyle.com), then in Blender open Edit > Preferences > Get Extensions, open the menu at the top right and pick Install from Disk.
+
+To build the zip yourself, run this in the repo folder:
+
+```bash
+blender --command extension build
+```
+
+---
+
+## License
+
+GPL 3.0 or later. See [LICENSE](LICENSE).
