@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "tfmstyle_rescaler"
-version = "1.0.2"
+version = "1.0.3"
 name = "TFMSTYLE - Rescaler"
 tagline = "Uniformly rescale objects to match a target's bounding box"
 maintainer = "The French Monkey"
